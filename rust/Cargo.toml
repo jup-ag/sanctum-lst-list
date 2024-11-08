@@ -12,11 +12,11 @@ reqwest = "^0.11"
 sanctum-macros = "^1"
 serde = { version = "^1", features = ["derive"] }
 serde_with = "^3"
-solana-client = "^1"
-solana-program = "^1"
-solana-sdk = "^1"
-spl_stake_pool_interface = { git = "https://github.com/igneous-labs/sanctum-solana-utils", branch = "master" }
-spl-token-2022 = "^1"
+solana-client = "~2.0"
+solana-program = "~2.0"
+solana-sdk = "~2.0"
+spl_stake_pool_interface = { git = "https://github.com/jup-ag/sanctum-solana-utils.git", rev = "266d745c4d6d66041030d8315fcea41a916680fd" }
+spl-token-2022 = "5.0.2"
 tokio = "^1"
 toml = ">=0.1"
 
