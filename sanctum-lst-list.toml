@@ -2701,6 +2701,18 @@ pool = "1XPooL7vwQxZ1MaQEjAGwM4fHsoQxBYfXVx1zCGZMkP"
 validator_list = "1KvALWPNYeeZS5QmqaHvgEFfcdUspWRm4gRS58DpiG9"
 
 [[sanctum_lst_list]]
+mint = "mawaHPsSeCQQzfhQsjMZNAGoUPUzupKEDuxUe7u4cjx"
+token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+name = "Maw Staked SOL"
+symbol = "mawSOL"
+logo_uri = "https://bliq.so/api/v1/metadata/mawaHPsSeCQQzfhQsjMZNAGoUPUzupKEDuxUe7u4cjx.png"
+decimals = 9
+[sanctum_lst_list.pool]
+program = "Spl"
+pool = "mawbf3j7fStQAGDKqEc6rkWGrNBvFNrYpLtncqPCX9e"
+validator_list = "2CNDYRJRogB9PB5fmMk9iGX6a7it3fE9whVdxFazVUv4"
+
+[[sanctum_lst_list]]
 mint = "vSoLxydx6akxyMD9XEcPvGYNGq6Nn66oqVb3UkGkei7"
 token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 name = "The Vault"
