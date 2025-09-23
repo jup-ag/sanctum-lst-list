@@ -1,5 +1,31 @@
 # SanctumSpl Pool -- S upgrade path
 [[sanctum_lst_list]]
+mint = "defiDymAmcYWJrxKsLep27XjhVNVQt6EsWXUCCgcyhq"
+token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+name = "Defi Station Staked SOL"
+symbol = "defiSOL"
+logo_uri = "https://arweave.net/QJy2GZ1a3CEH9acxYvd1kd6kzgaudFCSTEjtVPL-aJ0"
+decimals = 9
+[sanctum_lst_list.pool]
+program = "SanctumSpl"
+pool = "HbGY5niBVeMRMR3GX5hzeJMn2KRaUrhTucy1kaA93op9"
+validator_list = "6PzfaB2357mtQincT9Ltn2eT55Xna6Q74WgerGwtggFM"
+vote_account = "Defi89YpAhk3Gst1Jpsi3Nhj7yCu5HropESh37SQ2v9g"
+
+[[sanctum_lst_list]]
+mint = "orcaSo6gzWvvXvAHVJQVrxWmHepCcGp7swVX1yTBuoJ"
+token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+name = "Orca Staked SOL"
+symbol = "orcaSOL"
+logo_uri = "https://arweave.net/Qt786Bfm-kZWDwX2tCodPi1rmUyJsd0bGaUI_xaUKIM"
+decimals = 9
+[sanctum_lst_list.pool]
+program = "SanctumSpl"
+pool = "8JX2GTYio5T7AJKXCNW2K8XmmZXmKCsgwUZu44qqNbNj"
+validator_list = "2HdHETyZmqkQ7Fos1T4AaEZVrVWBPg13gvwu4j85Ha8H"
+vote_account = "3VZHxnkK1A3HYeWYaqgMebHnc2acgLzRiXYwTNm3ooYM"
+
+[[sanctum_lst_list]]
 mint = "qW1RdJQ5SPttcYNddjGY44JPaFxh8MxkE52BFKashrk"
 token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 name = "BTHS SOL"
