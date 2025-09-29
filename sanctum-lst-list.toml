@@ -1,5 +1,18 @@
 # SanctumSpl Pool -- S upgrade path
 [[sanctum_lst_list]]
+mint = "ALG9TViDeZRGHj6HtZAiiyPRV82FrB2sSBgAeYNJakRu"
+token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+name = "Algon Staked SOL"
+symbol = "algSOL"
+logo_uri = "https://arweave.net/hauoJspqVols6ZzWi5SOPxpf0ekWCsm0xsvXpcRrWuI"
+decimals = 9
+[sanctum_lst_list.pool]
+program = "SanctumSpl"
+pool = "7fL5Kjp6De6bKY4N4LSavPCHaLBF8yVWAUXwj3rm2Wie"
+validator_list = "2waWvNNb1MwMdB6j3fxkieRNXh2uVPd1PZNqJGeqTu1k"
+vote_account = "LSTmLs1DENX82ihc7jU134mydiV3NDEPXsRrekAY6Ys"
+
+[[sanctum_lst_list]]
 mint = "defiDymAmcYWJrxKsLep27XjhVNVQt6EsWXUCCgcyhq"
 token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 name = "Defi Station Staked SOL"
