@@ -4,13 +4,13 @@ mint = "cPQPBN7WubB3zyQDpzTK2ormx1BMdAym9xkrYUJsctm"
 token_program = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
 name = "Dum Staked SOL"
 symbol = "dumSOL"
-logo_uri = ""
+logo_uri = "https://arweave.net/TZferu00LMEEmXe9iCHQYu9OGDzw5LmU0leiwP3FQLk"
 decimals = 9
 [sanctum_lst_list.pool]
 program = "SanctumSpl"
 pool = "2iZHumJq19hyCYkD3xFoZ6dbiFbJ5nqbwALMdJBYQsJa"
 validator_list = "Gfj8Zfvwfb7Jw38GLBHHkCUpgonB477gPKK75KvRt4s4"
-vote_account = ""
+vote_account = "LSTmLs1DENX82ihc7jU134mydiV3NDEPXsRrekAY6Ys"
 
 [[sanctum_lst_list]]
 mint = "ALG9TViDeZRGHj6HtZAiiyPRV82FrB2sSBgAeYNJakRu"
