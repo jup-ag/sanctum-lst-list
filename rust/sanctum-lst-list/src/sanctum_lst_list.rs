@@ -7,7 +7,7 @@ use crate::SanctumLst;
 /// The main struct to deserialize from sanctum-lst-list.toml
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
 pub struct SanctumLstList {
-    pub sanctum_lst_list: Vec<SanctumLst>,
+    pub data: Vec<SanctumLst>,
 }
 
 impl SanctumLstList {
@@ -17,12 +17,12 @@ impl SanctumLstList {
     }
 
     pub fn load_from_str(s: &str) -> std::io::Result<Self> {
-        toml::from_str(s).map_err(|e| std::io::Error::new(std::io::ErrorKind::Other, e))
+        serde_json::from_str(s).map_err(|e| std::io::Error::new(std::io::ErrorKind::Other, e))
     }
 
     pub fn load() -> Self {
         // TODO: this include_str might break rust-analyzer or compile-times when sanctum-lst-list.toml gets huge, idk
-        let s = include_str!("../sanctum-lst-list.toml");
+        let s = include_str!("../sanctum-lst-list.json");
         Self::load_from_str(s).unwrap()
     }
 }

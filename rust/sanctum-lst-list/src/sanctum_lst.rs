@@ -18,6 +18,7 @@ pub enum PoolInfo {
 
 #[serde_as]
 #[derive(Serialize, Deserialize, Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[serde(rename_all = "camelCase")]
 pub struct SplPoolAccounts {
     #[serde(with = "As::<DisplayFromStr>")]
     pub pool: Pubkey,
@@ -32,6 +33,7 @@ pub struct SplPoolAccounts {
 
 #[serde_as]
 #[derive(Serialize, Deserialize, Clone, Copy, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[serde(rename_all = "camelCase")]
 pub struct SPoolAccounts {
     #[serde(with = "As::<DisplayFromStr>")]
     pub program_id: Pubkey,
@@ -53,6 +55,7 @@ impl PoolInfo {
 
 /// The entry for a single supported LST
 #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, Eq, PartialOrd, Ord, Hash)]
+#[serde(rename_all = "camelCase")]
 pub struct SanctumLst {
     #[serde(with = "As::<DisplayFromStr>")]
     pub mint: Pubkey,

@@ -1,3 +1,4 @@
+#![cfg(any())]
 use borsh::BorshDeserialize;
 use sanctum_lst_list::{PoolInfo, SanctumLst};
 use solana_client::rpc_client::RpcClient;
